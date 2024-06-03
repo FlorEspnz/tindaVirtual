@@ -1,5 +1,15 @@
-<div class="content">
-    <h1>Productos</h1>
-    <p>Esta es la página de productos.</p>
+<div class="search-bar">
+  <input type="text" [(ngModel)]="searchCriteria" placeholder="Buscar productos...">
+</div>
+
+<div class="product-list">
+  <div *ngFor="let product of filterProducts()" class="card">
+    <img [src]="product.imageUrl" alt="{{ product.name }}">
+    <div class="card-content">
+      <h3>{{ product.name }}</h3>
+      <p>{{ product.description }}</p>
+      <p><strong>Categoria:</strong> {{ product.category }}</p>
+      <p><strong>Precio:</strong> ${{ product.price }}</p>
+    </div>
   </div>
-  
+</div>

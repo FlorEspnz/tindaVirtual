@@ -1,0 +1,31 @@
+.search-bar {
+    background-color: #ffb0fe;
+    margin-bottom: 20px;
+    
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #ffd9f4;
+    border: 1px solid #8b5b93;
+    border-radius: 4px;
+    padding: 16px;
+    width: calc(33% - 40px); /* Ajusta según sea necesario */
+    box-sizing: border-box;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    margin-top: 16px;
+  }
+  
+  
