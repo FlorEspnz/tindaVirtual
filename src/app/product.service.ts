@@ -11,12 +11,12 @@ export class ProductService {
 
   getProducts(): Observable<Product[]> {
     const products: Product[] = [
-      { id: 1, name: 'Producto 1', category: 'Categoría 1', price: 100, imageUrl: 'assets/producto1.jpg', description: 'Descripción del producto 1' },
-      { id: 2, name: 'Producto 2', category: 'Categoría 2', price: 150, imageUrl: 'assets/producto2.jpg', description: 'Descripción del producto 2' },
-      { id: 3, name: 'Producto 3', category: 'Categoría 2', price: 150, imageUrl: 'assets/producto3.jpg', description: 'Descripción del producto 3' },
-      { id: 4, name: 'Producto 4', category: 'Categoría 2', price: 150, imageUrl: 'assets/producto4.jpg', description: 'Descripción del producto 4' },
-      { id: 5, name: 'Producto 5', category: 'Categoría 2', price: 150, imageUrl: 'assets/producto5.jpg', description: 'Descripción del producto 5' },
-      { id: 6, name: 'Producto 6', category: 'Categoría 2', price: 150, imageUrl: 'assets/product6.jpg',  description: 'Descripción del producto 6' },
+      { id: 1, name: 'CORREA', category: 'Categoría 1', price: 3000, imageUrl: 'assets/producto 1.jpg', description: 'correa gris' },
+      { id: 2, name: 'CORREA', category: 'Categoría 2', price: 3000, imageUrl: 'assets/producto 2.jpg', description: 'correa stitch' },
+      { id: 3, name: 'COLLAR', category: 'Categoría 2', price: 2000, imageUrl: 'assets/producto 3.jpg', description: 'collar stitch' },
+      { id: 4, name: 'CORREA', category: 'Categoría 2', price: 3000, imageUrl: 'assets/producto 4.jpg', description: 'correa pixar' },
+      { id: 5, name: 'ARNES Y CORREA', category: 'Categoría 2', price: 5000, imageUrl: 'assets/producto 5.jpg', description: 'arnes y correa rosa' },
+      { id: 6, name: 'JUGUETE', category: 'Categoría 2', price: 3500, imageUrl: 'assets/producto 7.jpg',  description: 'juguete para gatos' },
       // Agrega más productos según sea necesario
     ];
     return of(products);

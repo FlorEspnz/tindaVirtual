@@ -5,9 +5,10 @@ import { NavbarComponent } from "./navbar/navbar.component";
 @Component({
     selector: 'app-root',
     standalone: true,
+    imports: [RouterOutlet, NavbarComponent],
     templateUrl: './app.component.html',
-    styleUrl: './app.component.css',
-    imports: [RouterOutlet, NavbarComponent]
+    styleUrl: './app.component.css'
+   
 })
 export class AppComponent {
   title = 'tiendaVirtual';
